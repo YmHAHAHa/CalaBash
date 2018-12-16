@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane maxHeight="700.0" maxWidth="700.0" minHeight="1000.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0"
+          xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.LayoutControl" fx:id="mainPane">
+  <columnConstraints>
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="70.0" minWidth="70.0" prefWidth="70.0" />
+     <ColumnConstraints hgrow="NEVER" maxWidth="300.0" minWidth="300.0" prefWidth="300.0" />
+  </columnConstraints>
+  <rowConstraints>
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+     <RowConstraints minHeight="70.0" prefHeight="70.0" vgrow="NEVER" />
+  </rowConstraints>
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true" GridPane.columnSpan="10" GridPane.rowSpan="10">
+         <image>
+            <Image url="@../background.png" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>
