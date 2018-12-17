@@ -10,7 +10,7 @@ public class CalaBashBro extends Creature {
 
     public CalaBashBro(CalaBashColor c, Field f) {
         super(0, 0, damages[c.ordinal()], healths[c.ordinal()],
-                f, (c.ordinal() + 1) + ".png");
+                true, f, (c.ordinal() + 1) + ".png");
         this.color = c;
     }
 }
