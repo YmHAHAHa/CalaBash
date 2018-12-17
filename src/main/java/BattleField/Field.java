@@ -221,7 +221,7 @@ public class Field {
         }
     }
 
-    Scanner scanner;
+    /*Scanner scanner;
 
     public void rePlay(File file) {
         try {
@@ -289,9 +289,9 @@ public class Field {
 
     public void shutRedo() {
 
-    }
+    }*/
 
-    /*Thread thread;
+    Thread thread;
 
     public void rePlay(File file) {
         initReplay();
@@ -327,5 +327,5 @@ public class Field {
 
     public void shutRedo() {
         thread.interrupt();
-    }*/
+    }
 }
