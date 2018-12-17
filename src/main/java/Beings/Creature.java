@@ -10,7 +10,8 @@ import java.util.Random;
 
 public class Creature implements Runnable {
 
-    private int x, y, indexIV, indexRun;
+    private int x, y, indexRun;
+    public int indexIV;
     private int damage, health;
     private Image image;
     private Field field;

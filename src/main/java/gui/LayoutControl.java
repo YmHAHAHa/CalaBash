@@ -3,11 +3,7 @@ package gui;
 
 import BattleField.Field;
 import BattleField.IVmanager;
-import Beings.CalaBashBro;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Label;
-import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 
 
@@ -34,6 +30,4 @@ public class LayoutControl {
         mainPane.getChildren().remove(tmp.iv);
         mainPane.add(tmp.iv, tmp.x, tmp.y);
     }
-
-
 }

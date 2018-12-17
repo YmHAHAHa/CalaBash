@@ -40,9 +40,15 @@ public class Main extends Application {
             @Override
             public void handle(KeyEvent event) {
                 if (!field.onBattle && !field.onReplay) {
-                    if (event.getCode() == KeyCode.SPACE)
-                        field.startBattle();
-                    else if (event.getCode() == KeyCode.L) {
+                    if (event.getCode() == KeyCode.SPACE) {
+                        FileChooser fileChooser = new FileChooser();
+                        fileChooser.setTitle("Save");
+                        File file = fileChooser.showOpenDialog(stage);
+                        if (file != null) {
+                            field.setFile(file);
+                            field.startBattle();
+                        }
+                    } else if (event.getCode() == KeyCode.L) {
                         FileChooser fileChooser = new FileChooser();
                         fileChooser.setTitle("Open");
                         File file = fileChooser.showOpenDialog(stage);
@@ -58,6 +64,7 @@ public class Main extends Application {
         stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
             public void handle(WindowEvent event) {
+                field.closeFile();
                 System.exit(0);
             }
         });
