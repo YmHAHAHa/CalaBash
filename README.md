@@ -70,6 +70,40 @@ P.S. 效果图一中我们可以看到，仅剩一名葫芦娃时，老爷爷已
 
 ### 面向对象思想的应用
 
+#### 继承
+
 <div align=center>
     <img src = "pic\4.png" width='100%'>
 </div>
+
+所有战士继承自Creature类，这是在之前作业不断迭代的基础上完成的。在本项目中，我极大的丰富了每一个战士自身的各种属性，使它们变得尽可能英勇而足智多谋，而不是像阅兵走方阵一般整齐进发。
+
+#### 封装
+
+<div align=center>
+    <img src = "pic\5.png" width='100%'>
+</div>
+
+各个类各司其职，合理有序的接口构建了项目所有功能。
+
+#### 泛型
+
+<div align=center>
+    <img src = "pic\6.png" width='100%'>
+</div>
+
+极大的增加了程序的灵活性，使变量更容易统一的进行调用，如对不同种类的妖怪进行布阵操作。
+
+#### 异常处理
+
+```java
+try {
+    if (isGo) {
+        Thread.sleep(rand.nextInt(500) + 300);
+    } else {
+        field.stopOneRun(indexRun);
+    }
+} catch (InterruptedException e) {
+        e.printStackTrace();
+}
+```
