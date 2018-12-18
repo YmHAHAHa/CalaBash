@@ -134,3 +134,7 @@ try {
 public synchronized boolean Move(Creature c1, Creature c2, Random rand) {...}
 public synchronized void Fight(Creature c1, Creature c2, Random rand) {...}
 ```
+
+## 单元测试
+
+本项目已经通过对位置改变，战场重绘等关键函数的单元测试。
