@@ -304,7 +304,6 @@ public class Field {
 
     private void initReplay() {
         allView = new ArrayList<>();
-        //allView.add(new IVmanager(1,2,new Image("1.png")));
         for (int i = 0; i < 7; ++i) {
             allView.add(new IVmanager(1, 2 + i, new Image((i + 1) + ".png")));
         }
