@@ -33,5 +33,9 @@
 我们可以看到，每一位葫芦娃战士的形象都是卡通Q版头像，而妖怪阵容里的每一位则都是穷凶极恶的动画原版形象，这也充分契合了双方的形象设定，可爱呆萌的葫芦娃和阴森可怕的妖怪们哪一方才能取得最后的胜利呢？
 
 <div align=center>
-    <img src = "src\main\resources\1.png" width='40%'>
+    <img src = "src\main\resources\1.png" width='30%'>
+</div>
+
+<div align=center>
+    <img src = "src\main\resources\xiezijing.png" width='30%'>
 </div>
