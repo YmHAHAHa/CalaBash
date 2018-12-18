@@ -37,5 +37,5 @@
 </div>
 
 <div align=center>
-    <img src = "src\main\resources\xiezijing.png" width='30%'>
+    <img src = "src\main\resources\hamajing.png" width='30%'>
 </div>
