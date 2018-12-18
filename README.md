@@ -70,4 +70,6 @@ P.S. 效果图一中我们可以看到，仅剩一名葫芦娃时，老爷爷已
 
 ### 面向对象思想的应用
 
-
+<div align=center>
+    <img src = "pic\4.png" width='100%'>
+</div>
