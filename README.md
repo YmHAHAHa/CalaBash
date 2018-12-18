@@ -39,3 +39,9 @@
 <div align=center>
     <img src = "src\main\resources\hamajing.png" width='15%'>
 </div>
+
+当每一位战士在战场上鏖战致死后，他的图像也会发生相应的变化，变成一个骷髅头（至于为什么是海贼王里的旗帜图案，别问，问就是要成为海贼王的男人！）每一个骷髅头都标志着有一位英勇的战士在这里牺牲了。
+
+<div align=center>
+    <img src = "src\main\resources\die.png" width='15%'>
+</div>
