@@ -294,6 +294,7 @@ public class Field {
     Thread thread;
 
     public void rePlay(File file) {
+        onReplay = true;
         initReplay();
         layoutControl.paintAllView();
         Redo redo = new Redo(file, this);
